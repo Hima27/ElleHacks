@@ -1,0 +1,27 @@
+body {
+    background-color: #AEEEEE;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    font-size: 33px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.footer {
+
+}
+
+.maps {
+    background-color: lightblue;
+    float: left;
+    background-clip: border-box;
+    padding: 30px;
+    position: relative;
+}
