@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SWelK
+        </title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="SWelK.css">
+    <body>
+        <div class="header">
+            <h1 style="background-color: aquamarine;">
+                Welcome to the SWelK HomePage
+            </h1>
+        </div>
+        <h2>
+            About SWelK
+        </h2>
+        <p>
+            Bla Bla Bla is a Student Wellness Kit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </p>
+        <ul clear=right>
+            <lh>Personal SWelK for</lh>
+            <li>Talking out feelings</li>
+            <li>Anxiety</li>
+            <li>Depression</li>
+            <li>Talking out feelings</li>
+        </ul>
+        <hr>
+        <p>
+            <img src="res/galaxy.png" alt="Random Galaxy" width = "500" height="500">
+            <a href="https://en.wikipedia.org/wiki/Cat">learn more about cats</a>
+            Cats!
+        </p>
+
+        <h2>Why?</h2>
+        <p>SWelK is for.......................</p>
+
+        <table>
+            <tr>
+                <th>Cat2</th>
+                <th>Cat2</th>
+                <th>Cat3</th>
+                <th>Cat4</th>
+            </tr>
+            <tr>
+                <td>this</td>
+                <td>is</td>
+                <td>a</td>
+                <td>table</td>
+            </tr>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+        </table>
+        <div class="maps" >
+            <h2>Need more help?</h2>
+            <p>Find out community groups around you!</p>
+
+            
+            <div id="googleMap" style="width:600px;height:400px;"></div>
+
+            <script>
+            function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        </div>
+
+    </body>
+</html>
