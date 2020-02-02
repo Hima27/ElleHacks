@@ -8,45 +8,38 @@
     <link rel="stylesheet" type="text/css" href="SWelK.css">
     <body>
         <div class="header">
-            <h1 style="background-color: aquamarine;">
-                Welcome to the SWelK HomePage
+            <img src="res/logo.png" alt="SWelK Logo" width = "150" height="150">
+            <a href="https://en.wikipedia.org/wiki/Cat"></a>
+            <h1>
+                SWelK - Student Wellness Kit
             </h1>
         </div>
         <h2>
             About SWelK
         </h2>
         <p>
-            Bla Bla Bla is a Student Wellness Kit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            SWelK is a mental health awarness and assessment tool. The anonymous Google assistent chatbox is designed to make one feel comfortable and calm while assessing their anxiety and stress levels.
         </p>
+        <lh>SWelK provides:</lh>
         <ul clear=right>
-            <lh>Personal SWelK for</lh>
-            <li>Talking out feelings</li>
-            <li>Anxiety</li>
-            <li>Depression</li>
-            <li>Talking out feelings</li>
+            <li>A user friendly interface to communicate with</li>
+            <li>Stress and anxiety assessments</li>
+            <li>Viable options for addtional care</li>
+            <li>An anonymous platform to just talk</li>
         </ul>
         <hr>
-        <p>
-            <img src="res/galaxy.png" alt="Random Galaxy" width = "500" height="500">
-            <a href="https://en.wikipedia.org/wiki/Cat">learn more about cats</a>
-            Cats!
-        </p>
-
-        <h2>Why?</h2>
-        <p>SWelK is for</p>
-
         <div class="maps" >
             <h2>Need more help?</h2>
-            <p>Find out community groups around you!</p>
+            <p>Resources and help centres around you:</p>
 
 
-            <div id="googleMap" style="width:85%;height:500px;"></div>
+            <div id="googleMap" style="width:200%;height:500px;"></div>
 
             <script>
             function myMap() {
                 var location = {lat: 43.77, lng: -79.50}
                 var map = new google.maps.Map(document.getElementById("googleMap"),{zoom: 13, center: location});
-                var marker = new google.maps.Marker({position: location,map: map,title: 'Hello World!'});
+                var marker = new google.maps.Marker({position: location,map: map,title: 'You are here'});
                 marker.setMap(map);
             }
             </script>
