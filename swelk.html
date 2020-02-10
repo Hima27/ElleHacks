@@ -41,6 +41,8 @@
                 var map = new google.maps.Map(document.getElementById("googleMap"),{zoom: 13, center: location});
                 var marker = new google.maps.Marker({position: location,map: map,title: 'You are here'});
                 marker.setMap(map);
+                var jTP = {lat: 43.533441, lng: -80.223576};
+                var marker = new google.maps.Marker({position: jTP, map: map, title: 'Wellness Centre Near You'});
             }
             </script>
 
